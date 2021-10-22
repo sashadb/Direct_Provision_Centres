@@ -25,7 +25,7 @@ $(window).on('load', function() {
     */
     
     return L.divIcon({
-    html: '<i class="fa fa-circle-o"></i>',
+    html: '<i class="fa fa-circle"></i>',
     iconSize: [20, 20],
     className: 'myDivIcon'
     });
