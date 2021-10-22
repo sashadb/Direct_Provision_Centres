@@ -24,7 +24,7 @@ $(window).on('load', function() {
     });
     */
     
-    return icon: L.divIcon({
+    return L.divIcon({
     html: '<i class="fa fa-truck" style="color: red"></i>',
     iconSize: [20, 20],
     className: 'myDivIcon'
