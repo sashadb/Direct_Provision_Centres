@@ -13,24 +13,12 @@ $(window).on('load', function() {
    * Returns an Awesome marker with specified parameters
    */
   function createMarkerIcon(icon, prefix, markerColor, iconColor) {
-    
-    
-   /** 
    return L.AwesomeMarkers.icon({
       icon: icon,
       prefix: prefix,
       markerColor: markerColor,
       iconColor: iconColor
     });
-    */
-    
-    return L.divIcon({
-    html: '<i class="fa fa-circle"></i>',
-    iconSize: [20, 20],
-    className: 'myDivIcon'
-    });
-    
-    
   }
 
 
